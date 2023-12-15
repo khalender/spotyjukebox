@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: prod
+  application:
+    name: SpotyJukebox
+  main:
+    banner-mode: off
+    allow-circular-references: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/spotyjukebox
+    username: postgres
+    password: 123456
+
+server:
+  port: 2222
+  servlet:
+    context-path: /api/spotyjukebox

@@ -29,6 +29,16 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>com.nrlp.spotyjukebox</groupId>
+                <artifactId>service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.nrlp.spotyjukebox</groupId>
+                <artifactId>config</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
                 <version>${spring-boot-version}</version>
