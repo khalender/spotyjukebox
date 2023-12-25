@@ -81,7 +81,6 @@
                 <configuration>
                     <source>21</source>
                     <target>21</target>
-                    <compilerArgs>--enable-preview</compilerArgs>
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.projectlombok</groupId>
@@ -99,11 +98,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <configuration>
-                    <source>17</source>
-                    <additionalOptions>--enable-preview</additionalOptions>
-                    <doclint>none</doclint>
-                </configuration>
             </plugin>
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
